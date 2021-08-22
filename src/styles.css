@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('./fontawesome-free-5.15.3-web/css/all.css');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    --main-color: #EF286B;
+}
+
+#root {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+#player {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: #fff;
+}
