@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8c943eed.chunk.css",
+    "main.js": "./static/js/main.fc6f24bf.chunk.js",
+    "main.js.map": "./static/js/main.fc6f24bf.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.477a646e.js",
+    "runtime-main.js.map": "./static/js/runtime-main.477a646e.js.map",
+    "static/js/2.a09ad1eb.chunk.js": "./static/js/2.a09ad1eb.chunk.js",
+    "static/js/2.a09ad1eb.chunk.js.map": "./static/js/2.a09ad1eb.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.8c943eed.chunk.css.map": "./static/css/main.8c943eed.chunk.css.map",
+    "static/js/2.a09ad1eb.chunk.js.LICENSE.txt": "./static/js/2.a09ad1eb.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "./static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/music-icon-default.e4029d57.jpg": "./static/media/music-icon-default.e4029d57.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.477a646e.js",
+    "static/js/2.a09ad1eb.chunk.js",
+    "static/css/main.8c943eed.chunk.css",
+    "static/js/main.fc6f24bf.chunk.js"
+  ]
+}
