@@ -18,7 +18,7 @@ export default function Playlist(props) {
                             })
                         }}
                     >
-                        <img src={song.image || thumb} alt=''/>
+                        <img src={song.image} onError={(e) => e.target.src = thumb} alt=''/>
                         <div className='info'> 
                             <h4>{song.name}</h4>
                             <p>{song.artist}</p>

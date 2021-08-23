@@ -74,7 +74,7 @@ export default function Dashboard(props) {
                 <h2>{props.name}</h2>
             </div>
             <div className='cd'>
-                <img src={props.image || thumb} alt=''/>
+                <img src={props.image} onError={(e) => e.target.src = thumb} alt=''/>
             </div>
 
             <div className='controls'>
