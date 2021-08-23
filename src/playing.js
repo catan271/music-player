@@ -52,14 +52,14 @@ export default function Dashboard(props) {
         setProgress(document.querySelector('#dashboard input.progress'))
         document.onscroll = () => {
             const scrollTop = window.scrollY || document.documentElement.scrollTop
-            let thumbSize = Math.max(240 - scrollTop, 0)
+            let thumbSize = Math.max(272 - scrollTop, 0)
 
             const thumb = document.querySelector("#dashboard .cd img")
 
-            thumb.style.width = thumbSize + 'px'
-            thumb.style.height = thumbSize + 'px'
-            thumb.style.margin = thumbSize / 15 + 'px auto'
-            thumb.style.opacity = thumbSize / 240
+            thumb.style.width = thumbSize * 240 / 272 + 'px'
+            thumb.style.height = thumbSize * 240 / 272 + 'px'
+            thumb.style.margin = thumbSize * 16 / 272 + 'px auto'
+            thumb.style.opacity = thumbSize / 272
         }
     }, [])
 
