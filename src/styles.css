@@ -10,6 +10,7 @@
 
 html {
     --main-color: #EF286B;
+    background-color: #f5f5f5;
 }
 
 #root {
@@ -19,7 +20,7 @@ html {
 }
 
 #player {
-    max-width: 480px;
+    width: 480px;
+    max-width: 100%;
     margin: 0 auto;
-    background-color: #fff;
 }
