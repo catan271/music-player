@@ -177,7 +177,7 @@ const Board = styled.div`
             cursor: pointer;
         }
 
-        .btn:hover {
+        .btn:active {
             color: var(--main-color);
         }
 
